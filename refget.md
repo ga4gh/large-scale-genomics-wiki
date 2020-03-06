@@ -4,7 +4,7 @@
 
 Refget is a specification to define a **standard way to access reference sequences** using an **identifier system derived from the sequence itself**. It is a fundamental building block of GA4GH providing a way for our standards to access sequences and to unambiguously identify them.
 
-![How refget works](https://gist.githubusercontent.com/andrewyatz/2a7f604ad991f3249e39cc6a75e779ff/raw/8bda2b2679ce8973f7d9a84b45d3c771e349cc48/refget.png)
+![How refget works](refget-big.png)
 
 ## How do I use refget?
 
