@@ -34,11 +34,15 @@ print(r.json())
 {'metadata': {'aliases': [{{'alias': 'I', 'naming_authority': 'unknown'}], 'length': 230218, 'md5': '6681ac2f62509cfc220d78751b8dc524', 'trunc512': '959cb1883fc1ca9ae1394ceb475a356ead1ecceff5824ae7'}}
 ```
 
+## Refget Sequence Collections
+
+An GA4GH approved product called [Refget Sequence Collections has been released from the GA4GH Large Scale Genomics workstream](https://ga4gh.github.io/refget/seqcols/). This standard allows the same mechanisms as Refget Sequences to operate over groups of sequences such as those composing an assembly, transcriptome or proteome. 
+
 ## Essential refget information
 
 ### Specifications
 
-- [Refget's reference specification](https://samtools.github.io/hts-specs/refget.html)
+- [Refget's reference specification](https://ga4gh.github.io/refget/sequences/)
 - [Refget in OpenAPI](https://samtools.github.io/hts-specs/pub/refget-openapi.yaml)
 - [Refget OpenAPI in Swagger Hub's editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/samtools/hts-specs/master/pub/refget-openapi.yaml)
 
@@ -48,10 +52,11 @@ print(r.json())
 - [Compliance document](https://compliancedoc.readthedocs.io/en/latest/)
 - [Compliance suite](https://github.com/ga4gh/refget-compliance-suite)
 
-### Running implementations
+### Implementations
 
 - [CRAM Reference registry](https://www.ebi.ac.uk/ena/cram) deployed by ENA at EMBL-EBI. Provides access to all submitted INSDC sequence via the refget standard
-- [Refget reference implementation](https://github.com/andrewyatz/refget-server-perl) with an example [running at Heroku](http://refget.herokuapp.com/)
+- [Ensembl Refget](https://beta.ensembl.org/data/refget/) access to reference sequences including genomic, transcripts and proteins. Running implementation of the [Ensembl Refget implemnetation](https://github.com/Ensembl/ensembl-refget).
+- [Refget reference implementation](https://github.com/andrewyatz/refget-server-python) written in Python
 - [AWS Serverless implementation](https://github.com/ga4gh/refget-serverless) using S3 as a sequence and metadata storage layer
 
 ## What does an identifier derived from the sequence mean?
@@ -60,4 +65,4 @@ Sequences such as reference genomes have a multitude of names. For example chrom
 
 ## How to get involved
 
-You can contribute changes to the [hts-specs GitHub repository](https://github.com/samtools/hts-specs). If you want to be more involved we host [regular conference calls](https://docs.google.com/document/d/1B14YzZsvXtjE8TlDmEJm2tS7I8fstSZsxYsTCpIVY34/edit).
+You can contribute changes to the [hts-specs GitHub repository](https://github.com/ga4gh/refget). If you want to be more involved we host [regular conference calls](https://docs.google.com/document/d/1B14YzZsvXtjE8TlDmEJm2tS7I8fstSZsxYsTCpIVY34/edit).
