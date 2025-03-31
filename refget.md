@@ -55,7 +55,7 @@ An GA4GH approved product called [Refget Sequence Collections has been released 
 ### Implementations
 
 - [CRAM Reference registry](https://www.ebi.ac.uk/ena/cram) deployed by ENA at EMBL-EBI. Provides access to all submitted INSDC sequence via the refget standard
-- [Ensembl Refget](https://beta.ensembl.org/data/refget/) access to reference sequences including genomic, transcripts and proteins. Running implementation of the [Ensembl Refget implemnetation](https://github.com/Ensembl/ensembl-refget).
+- [Ensembl Refget](https://beta.ensembl.org/data/refget/) access to reference sequences including genomic, transcripts and proteins. Running implementation of the [Ensembl Refget implementation](https://github.com/Ensembl/ensembl-refget).
 - [Refget reference implementation](https://github.com/andrewyatz/refget-server-python) written in Python
 - [AWS Serverless implementation](https://github.com/ga4gh/refget-serverless) using S3 as a sequence and metadata storage layer
 
